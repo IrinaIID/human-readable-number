@@ -22,7 +22,7 @@ module.exports = function toReadable (number) {
                 let midleNum = +numString[1];
                 let lastNum = +numString[2];
 
-                if (lasNum === 0) {
+                if (lastNum === 0) {
                     return `${arrOne[firstNum]} hundred`;
 
                 } else if (lastsNumbers < 20) {
